@@ -5,7 +5,12 @@
 	//Declara o limite por pagina
 	$limite = 10;
 	//Pega a pagina atual
-	$pagina = intval($_GET['pagina']);
+	if(!isset($_GET['pagina'])){
+		$pagina = 0;
+	}else{
+		$pagina = intval($_GET['pagina']);
+	}
+	
 
 	//Calcula o inicio dos objetos a mostrar
 	$inicio = $limite*$pagina;
