@@ -43,7 +43,7 @@
 			<tbody>
 				<?php do { ?>
 				<tr>
-					<td><?php echo $linha['titulo'];?></td>
+					<td><?php echo $linha['NOME_DO_CAMPO_DA_TABELA'];?></td>
 				</tr>
 			<?php } while($linha=$busca->fetch(PDO::FETCH_ASSOC)); ?>
 			</tbody>
@@ -61,7 +61,7 @@
 <!-- Anotações -->
 <!-- 
 	
-	$linha['NOME_O_CAMPO_DA_TABELA'] pode ser padronizado em uma variavel.
+	$linha['NOME_DO_CAMPO_DA_TABELA'] pode ser padronizado em uma variavel.
 	
 	Não é aconcelhavel,porém, padroniza td na hora de fazer o sistema.
  -->
