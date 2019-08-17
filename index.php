@@ -36,8 +36,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Paginação</title>
+	<link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
 </head>
 <body>
+	<div class="jumbotron">
+		asdasd
+	</div>
 	<?php if($num > 0){ ?>
 		<table>
 			<thead>
@@ -63,6 +67,9 @@
 		<li><a href="index.php?pagina=<?php echo $num_paginas-1; ?>">fim</a></li>
 	</ul>
 </body>
+<script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+<script src="bootstrap-4.0.0/assets/js/vendor/jquery-1.9.1.min.js"></script>
+<script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
 <!-- Anotações -->
 <!-- 
 	
